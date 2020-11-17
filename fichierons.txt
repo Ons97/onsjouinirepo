@@ -11,10 +11,10 @@ public class ex1 {
 
         float m;
         Scanner s = new Scanner(System.in);
-        do {
+      
             System.out.println("Donner la moyenne de l'eleve :");
             m = s.nextFloat();
-        } while ((m < 0) || (m > 20));
+        
         if (m < 10) {
             System.out.println("Redouble");
         } else if ((m >= 10) && (m < 12)) {
