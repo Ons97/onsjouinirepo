@@ -27,6 +27,7 @@ public class ex1 {
             System.out.println(" tres bien");
         }
 
+   System.out.println("bye:");
     }
 
 }
